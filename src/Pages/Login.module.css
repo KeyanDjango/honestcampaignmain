@@ -1,0 +1,69 @@
+.login_parent_con {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F1F1F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login_card_con {
+    width: 28rem;
+    height: 27rem;
+    padding: 2rem 2.5rem 2rem 2.5rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.login_card_con>img {
+    width: 3rem;
+    margin: 0 auto;
+    display: block;
+}
+
+.btnlogin {
+    background-color: #00A384 !important;
+    box-shadow: none !important;
+    border: none !important;
+    margin: 1rem 0 1rem 0;
+    width: 100% !important;
+    padding: 1.2rem !important;
+    color: white !important;
+    outline: none !important;
+}
+
+
+
+.label_login {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    opacity: 0.9;
+}
+
+
+
+
+
+.forminput input {
+    margin: 0.2rem 0 1rem 0;
+    padding: 0.6rem;
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+
+.forminput input::placeholder {
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width:480px) {
+    .login_card_con {
+        width: 25rem;
+        height: 28rem;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    }
+}
