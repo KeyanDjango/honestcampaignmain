@@ -13,7 +13,7 @@ export default function SignUp() {
     return (
         <div className={Styles.signup_parent_con}>
             <div className={Styles.signup_card_con}>
-                <img src={logotop} />
+                <img src={logotop}  alt='honesti campaign'/>
                 <h2 style={{ fontWeight: 'lighter', margin: '1rem 0 1rem 0' }}>Create an account</h2>
                 
                 <form>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import Styles from './Login.module.css';
 import '../App.css';
 import logohonest from '../Icon/honest_icon.png'
@@ -14,7 +14,7 @@ export default function Login() {
     return (
         <div className={Styles.login_parent_con}>
             <div className={Styles.login_card_con}>
-                <img src={logohonest} />
+                <img src={logohonest} alt='honesti campaign' />
                 <h2 style={{ fontFamily: 'arial', fontWeight: 'lighter', textAlign: 'center', margin: '1.3rem 0 0.6rem 0' }}>Login to Honesti Campaign</h2>
                 <h5 style={{ fontFamily: 'arial', fontWeight: 'lighter', textAlign: 'center',marginBottom:'1rem' }}>Or <Link to='/signup' style={{textDecoration:'none',color:'#00A384',fontWeight:'lighter'}}> create new account </Link></h5>
                 
