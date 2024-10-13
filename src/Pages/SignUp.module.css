@@ -1,24 +1,28 @@
-.signup_parent_con{
+.signup_parent_con {
     width: 100vw;
-    height:100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #F1F1F3;
 }
-.signup_card_con{
-    width: 35rem;
-    height: 32.5rem;
-    padding: 2.5rem 2rem 2.5rem 2rem;
+
+.signup_card_con {
+    width: 90%; 
+    max-width: 35rem; 
+    min-height: 32.5rem; 
+    padding: 2.5rem 2rem; 
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
-.signup_card_con img{
+
+.signup_card_con img {
     width: 3rem;
 }
-.input_text_signup{
+
+.input_text_signup {
     margin: 0.2rem 0 1rem 0;
     padding: 0.6rem;
     border: 1px solid rgba(0, 0, 0, 0.2) !important;
@@ -26,12 +30,12 @@
     outline: none !important;
 }
 
-.input_text_signup::placeholder{
+.input_text_signup::placeholder {
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.signupbtn{
+.signupbtn {
     background-color: #00A384 !important;
     box-shadow: none !important;
     border: none !important;
@@ -40,13 +44,22 @@
     color: white !important;
     outline: none !important;
 }
-label{
+
+label {
     font-size: 0.8rem;
 }
 
-@media (max-width:480px){
-    .signup_card_con{
-        height: 34rem;
-        width: 96%;
+@media (max-width: 480px) {
+    .signup_card_con {
+        min-height: 34rem; 
+        width: 96%; 
+    }
+    
+    label {
+        font-size: 0.9rem; 
+    }
+
+    .input_text_signup {
+        font-size: 0.9rem; 
     }
 }
