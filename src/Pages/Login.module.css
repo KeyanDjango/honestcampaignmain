@@ -63,7 +63,11 @@
 @media (max-width:480px) {
     .login_card_con {
         width: 90%;
-        height: 28.5rem;
+        height: 27.5rem;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    }
+    .txtheader{
+        font-size: 1.2rem;
+
     }
 }
