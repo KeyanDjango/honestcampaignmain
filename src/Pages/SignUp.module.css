@@ -47,6 +47,6 @@ label{
 @media (max-width:480px){
     .signup_card_con{
         height: 34rem;
-        width: 25rem;
+        width: 96%;
     }
 }
