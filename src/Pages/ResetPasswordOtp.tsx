@@ -52,7 +52,7 @@ const OtpInput = () => {
                     ))}                    
                 </div>
                 <span style={{color:'rgba(0,0,0,0.4)'}}>enter otp</span>
-                <Button className={Styles.resetemail_btn}  onClick={handleClick}>SUBMIT</Button>
+                <Button className={Styles.resetemail_btn}  onClick={handleClick}> SUBMIT </Button>
             </div>
         </div>
     );
