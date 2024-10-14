@@ -1,7 +1,6 @@
 import React from 'react';
 import Styles from './ResetPasswordNew.module.css'
 import { Button, Input } from 'antd';
-import { useNavigate } from 'react-router-dom';
 
 
 
