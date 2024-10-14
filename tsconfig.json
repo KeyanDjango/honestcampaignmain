@@ -1,8 +1,9 @@
 {
-    "compilerOptions": {
-      "include": ["src", "declarations.d.ts"],
-      "jsx": "react",
-      "esModuleInterop": true,
-      "allowImportingTsExtensions": true,
-    }
-  }
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  },
+  "include": ["src", "declarations.d.ts"]
+}
