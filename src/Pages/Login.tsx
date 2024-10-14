@@ -21,7 +21,7 @@ export default function Login() {
                 <form className={Styles.forminput}>
                     <label htmlFor='email_input' className={Styles.label_login}>Email</label>
                     <Input type='text' id='email_input' placeholder="example@company.com" />
-                    <label htmlFor='password_input' className={Styles.label_login}>Password</label> <Link to="" className={Styles.label_login} style={{float:'right',textDecoration:'none',color:'#00A384',fontWeight:'lighter'}}>Forget your password?</Link>
+                    <label htmlFor='password_input' className={Styles.label_login}>Password</label> <Link to="/resetemail" className={Styles.label_login} style={{float:'right',textDecoration:'none',color:'#00A384',fontWeight:'lighter'}}>Forget your password?</Link>
                     <Input type='password' id='password_input' placeholder="Password" />
                     <Button className={Styles.btnlogin}>Login</Button>
                 </form>

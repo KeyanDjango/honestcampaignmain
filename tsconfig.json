@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {
+      "include": ["src", "declarations.d.ts"],
+      "jsx": "react",
+    }
+  }
