@@ -15,11 +15,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "install:fix": "npm install --legacy-peer-deps",
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "install:fix": "npm install --force",
-    "build": "npm run install:fix && react-scripts build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
