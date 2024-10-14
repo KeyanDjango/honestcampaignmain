@@ -2,5 +2,7 @@
     "compilerOptions": {
       "include": ["src", "declarations.d.ts"],
       "jsx": "react",
+      "esModuleInterop": true,
+      "allowImportingTsExtensions": true,
     }
   }
